@@ -11,6 +11,7 @@ import {
   RectButton,
 } from 'react-native-gesture-handler';
 import api from '../../services/api';
+import { useFocusEffect } from '@react-navigation/native';
 
 function TeacherList() {
   const [areFiltersVisible, setAreFiltersVisible] = useState(false);
@@ -37,6 +38,10 @@ function TeacherList() {
   // useEffect(() => {
   //   loadFavorites();
   // }, []);
+
+  useFocusEffect(() => {
+    loadFavorites();
+  });
 
   function handleToggleFiltersVisible() {
     setAreFiltersVisible(!areFiltersVisible);
