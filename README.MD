@@ -1,5 +1,5 @@
 <h4 align="center">
-<img src="github_assets/logo.png" width="250px" /><br>
+<img src="github_assets/logo.png" width="450px" /><br>
  <b>Collect of organic and inorganic residue</b> 
 </h4>
 
@@ -17,7 +17,7 @@
 </p>
 
 <p >
-  <img alt="Design" src="github_assets/design.png" width="800px" height="600px">  
+  <img alt="Design" src="github_assets/design.png" width="800px" height="450px">  
 </p>
 
 ### 💻 Project
@@ -93,11 +93,7 @@ $ yarn add @types/express -D
 $ yarn add ts-node-dev -D
 $ yarn add knex
 
-## Proffy Version 2.0
-
-$ yarn add pg
-$ yarn add dotenv
-Mobile
+## Mobile
 This projects use third party dependecies and fonts that need to be installed in development, use that command to install all needed dependencies and fonts
 
 \$ cd mobile
