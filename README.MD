@@ -16,6 +16,10 @@
   <img alt="License" src="https://img.shields.io/badge/license-MIT-brightgreen">
 </p>
 
+<p >
+  <img alt="Design" src="github_assets/design.png" width="800px" height="600px">  
+</p>
+
 ### 💻 Project
 
 This project was developed during the Next Level Week #02 event by Rocketseat 🚀 💜
@@ -39,11 +43,11 @@ Getting Started 🚀
 
 Cloning
 
-# Clone the repository using git
+## Clone the repository using git
 
 \$ git clone https://github.com/mschneider86/proffy.git
 
-# Access the project folder
+## Access the project folder
 
 \$ cd proffy
 
@@ -58,11 +62,11 @@ $ cd web
 $ yarn install
 The above command will install all third party dependencies used. If you want to install manually all the dependencies follow the steps bellow
 
-# Entering in web directory
+## Entering in web directory
 
 \$ cd web
 
-# Installing depencies
+## Installing depencies
 
 $ yarn add @types/react-router-dom -D
 $ yarn add axios
@@ -78,18 +82,18 @@ $ cd server
 $ yarn install
 The above command will install all third party dependencies used. If you want to install manually all the dependencies follow the steps bellow
 
-# Entering in server directory
+## Entering in server directory
 
 \$ cd server
 
-# Installing depencies
+## Installing depencies
 
 $ yarn add @types/cors -D
 $ yarn add @types/express -D
 $ yarn add ts-node-dev -D
 $ yarn add knex
 
-# Proffy Version 2.0
+## Proffy Version 2.0
 
 $ yarn add pg
 $ yarn add dotenv
@@ -98,21 +102,21 @@ This projects use third party dependecies and fonts that need to be installed in
 
 \$ cd mobile
 
-# Installing all used fonts
+## Installing all used fonts
 
 \$ expo install expo-font @expo-google-fonts/archivo @expo-google-fonts/poppins
 
-# Installing all required dependencies
+## Installing all required dependencies
 
 \$ yarn install
 The above command will install all third party dependencies and fonts used. If you want to install manually all dependencies and fonts used. follow the steps bellow
 
-# Installing fonts
+## Installing fonts
 
 $ expo install expo-font @expo-google-fonts/archivo
 $ expo install expo-font @expo-google-fonts/poppins
 
-# Installing required dependecies
+## Installing required dependecies
 
 $ yarn add @react-navigation/native
 $ expo install react-native-gesture-handler react-native-reanimated react-native-screens react-native-safe-area-context @react-native-community/masked-view
