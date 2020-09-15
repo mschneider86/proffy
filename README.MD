@@ -1,6 +1,6 @@
 <h4 align="center">
 <img src="github_assets/logo.png" width="450px" /><br>
- <b>Collect of organic and inorganic residue</b> 
+ <b>Online teaching platform made with React.js and React Native using Typescript during the NLW (Next Level Week) #02🚀</b> 
 </h4>
 
 <p align="center">
@@ -20,7 +20,7 @@
   <img alt="Design" src="github_assets/design.png" width="800px" height="450px">  
 </p>
 
-### 💻 Project
+## 💻 Project
 
 This project was developed during the Next Level Week #02 event by Rocketseat 🚀 💜
 
@@ -39,34 +39,33 @@ This project was developed with the following technologies:
 - [React Router DOM](https://reacttraining.com/react-router/)
 - [React Navigation](https://reactnavigation.org/)
 
-Getting Started 🚀
+## Getting Started 🚀
 
-Cloning
-
-## Clone the repository using git
+### Clone the repository using git
 
 \$ git clone https://github.com/mschneider86/proffy.git
 
-## Access the project folder
+### Access the project folder
 
 \$ cd proffy
 
-Requirements
+## Requirements
 Node.js
 Yarn or npm
 Expo
+
 Web
-This project use third party dependencies that need to be installed, use that command to install all needed dependencies
+This project uses third party dependencies that need to be installed, use that command to install all needed dependencies
 
 $ cd web
 $ yarn install
 The above command will install all third party dependencies used. If you want to install manually all the dependencies follow the steps bellow
 
-## Entering in web directory
+### Entering in web directory
 
 \$ cd web
 
-## Installing depencies
+### Installing depencies
 
 $ yarn add @types/react-router-dom -D
 $ yarn add axios
@@ -75,44 +74,44 @@ To start the server you need the database, to make migrations use the command:
 \$ yarn knex:migrate
 The above command is a custom command made on package.json file. (Ln 8, Col 5)
 
-Server
+### Server
 This project use third party dependencies that need to be installed, use that command to install all needed dependencies
 
 $ cd server
 $ yarn install
 The above command will install all third party dependencies used. If you want to install manually all the dependencies follow the steps bellow
 
-## Entering in server directory
+### Entering in server directory
 
 \$ cd server
 
-## Installing depencies
+### Installing depencies
 
 $ yarn add @types/cors -D
 $ yarn add @types/express -D
 $ yarn add ts-node-dev -D
 $ yarn add knex
 
-## Mobile
+### Mobile
 This projects use third party dependecies and fonts that need to be installed in development, use that command to install all needed dependencies and fonts
 
 \$ cd mobile
 
-## Installing all used fonts
+### Installing all used fonts
 
 \$ expo install expo-font @expo-google-fonts/archivo @expo-google-fonts/poppins
 
-## Installing all required dependencies
+### Installing all required dependencies
 
 \$ yarn install
 The above command will install all third party dependencies and fonts used. If you want to install manually all dependencies and fonts used. follow the steps bellow
 
-## Installing fonts
+### Installing fonts
 
 $ expo install expo-font @expo-google-fonts/archivo
 $ expo install expo-font @expo-google-fonts/poppins
 
-## Installing required dependecies
+### Installing required dependecies
 
 $ yarn add @react-navigation/native
 $ expo install react-native-gesture-handler react-native-reanimated react-native-screens react-native-safe-area-context @react-native-community/masked-view
